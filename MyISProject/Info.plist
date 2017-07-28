@@ -4,11 +4,6 @@
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>$(PRODUCT_NAME) location use</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>$(PRODUCT_NAME) location use
-$(PRODUCT_NAME) location use
-$(PRODUCT_NAME) location use
-$(PRODUCT_NAME) location use</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>$(PRODUCT_NAME) calendar events</string>
 	<key>NSPhotoLibraryUsageDescription</key>

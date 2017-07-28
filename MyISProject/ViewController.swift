@@ -28,6 +28,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+
+    
     
 //เงื่อนไขการ login
     @IBAction func Login(_sender: Any) {
@@ -89,8 +91,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //เรียกใช้การหุบ keyboard
-        EmailTxt.delegate = self
+//        เรียกใช้การหุบ keyboard
+       EmailTxt.delegate = self
         PasswordTxt.delegate = self
     }
 

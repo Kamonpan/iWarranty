@@ -7,24 +7,39 @@
 //
 
 import UIKit
-
 var Products = ["ทีวี","ตู้เย็น","ไมโครเวฟ","มือถือ"]
 var Price = [12000,8500,2500,25000]
 var ProductIndex = 0
+var price = [12000,8500,2500,25000]
+
 class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
+
+
+    @IBOutlet weak var ProductTableView: UITableView!
+    //ปุ่ม edit
+    //@IBOutlet weak var EditBtn: UIBarButton!
     
+    @IBAction func Edit(_ sender: Any) {
+        ProductTableView.isEditing = !ProductTableView.isEditing
+//        switch ProductTableView.isEditing {
+//        case true:
+//            EditBtn.title = "แก้ไขรายการ"
+//        case false:
+//            EditBtn.title = "เรียบร้อย"
+//        }
+    }
     
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // แสดงrowเท่ากับข้อมูลที่มี
         return Products.count
     }
     //ดึงข้อมูลมาแสดงที่  table view
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AddWarrantyTableViewController
+    internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewController
         
-        cell.ProductImage.image = UIImage(named:(Products[indexPath.row]+".jpg"))
-        cell.ProductNameLbl.text = Products[indexPath.row]
-        cell.PriceLbl.text = "สินค้าราคา \(Price[indexPath.row]) บาท"
+        cell.ProductImage?.image = UIImage(named:(Products[indexPath.row]+".jpg"))
+        cell.ProductNameLbl?.text = Products[indexPath.row]
+        cell.PriceLbl?.text = "สินค้าราคา \(Price[indexPath.row]) บาท"
         return cell
     }
     
@@ -32,6 +47,18 @@ class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableVie
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         ProductIndex = indexPath.row
         performSegue(withIdentifier: "GoToDetailProductSegue", sender: self)
+    }
+    
+    //allows reordering of cell ไว้สำหรับเลื่อน cell
+    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let item = Products[sourceIndexPath.row]
+        Products.remove(at:sourceIndexPath.row)
+        Products.insert(item,at: destinationIndexPath.row)
+        
     }
     
     
@@ -45,16 +72,5 @@ class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableVie
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

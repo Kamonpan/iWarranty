@@ -9,7 +9,9 @@
 import UIKit
 
 class DetailWarrantyViewController: UIViewController {
-
+//    var Products = ["ทีวี","ตู้เย็น","ไมโครเวฟ","มือถือ"]
+//    var Price = [12000,8500,2500,25000]
+//    var ProductIndex = 0
     
     @IBOutlet weak var ProductImage: UIImageView!
     @IBOutlet weak var ProductNameLbl: UILabel!

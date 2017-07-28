@@ -72,7 +72,7 @@ class RegisterUser: UIViewController,UITextFieldDelegate {
             alert.addAction(resultAlert)
             self.present(alert,animated: true, completion: nil)
                 return
-                    //กดปุ่มแล้ว pass ค่าไปให้อีกหน้า
+                    //กดปุ่มแล้วพาไปให้อีกหน้า
                     performSegue(withIdentifier: "GoToConfirmRegister", sender: self)
         }
         
@@ -127,15 +127,4 @@ class RegisterUser: UIViewController,UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
