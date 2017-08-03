@@ -67,6 +67,10 @@ class RegisterUser: UIViewController,UITextFieldDelegate {
             })
 
                
+   //back button
+            
+            
+            
             
                 
             alert.addAction(resultAlert)

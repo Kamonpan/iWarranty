@@ -20,6 +20,11 @@ class ScanViewController: UIViewController ,AVCaptureMetadataOutputObjectsDelega
     @IBOutlet weak var CropScan: UIImageView!
     @IBOutlet weak var SkipBtn: UIButton!
     @IBOutlet weak var ScanView: UIView!
+    @IBAction func CancelScanBtn(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    
+    }
+    
     
    
 //        lazy var readerVC: QRCodeReaderViewController = {

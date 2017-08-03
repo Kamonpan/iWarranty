@@ -64,8 +64,11 @@ class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //let image = UIImage(named: "navigator.png")
+        //navigationItem.titleView = UIImageView(image: image)
+       // let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
+     //   imageView.contentMode = .scaleAspectFit
+    
     }
 
     override func didReceiveMemoryWarning() {

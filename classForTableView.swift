@@ -10,15 +10,13 @@ import Foundation
 import UIKit
 
 class Promotion {
-    private var _name = ""
-    var detail = ""
+    var picture = UIImage()
+    var pictureDetail = UIImage()
+
+}
+class Brand {
     var picture = UIImage()
     var url = ""
-    
-    var PromoName:String{
-        get {return _name}
-        set {_name = newValue}
-    }
 }
 
 class Notification {
@@ -32,3 +30,5 @@ class Notification {
 
     }
 }
+
+

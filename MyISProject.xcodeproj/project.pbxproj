@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910E63741F2CAD22004AD583 /* PromoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E63731F2CAD22004AD583 /* PromoDetailViewController.swift */; };
+		910E63781F2DBC69004AD583 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E63771F2DBC69004AD583 /* SettingTableViewController.swift */; };
 		91200D0A1F197FC1006AD068 /* confirmRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200D091F197FC1006AD068 /* confirmRegister.swift */; };
 		91200D0F1F1A289A006AD068 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200D0E1F1A289A006AD068 /* TableViewController.swift */; };
 		91200D111F1A56B6006AD068 /* AddWarrantyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200D101F1A56B6006AD068 /* AddWarrantyViewController.swift */; };
@@ -37,158 +39,6 @@
 		91200DB01F2B92A0006AD068 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200DAF1F2B92A0006AD068 /* ImageCollectionViewCell.swift */; };
 		91200DB21F2B9A54006AD068 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200DB11F2B9A54006AD068 /* WebViewController.swift */; };
 		91200DB41F2BA2FE006AD068 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200DB31F2BA2FE006AD068 /* NotificationViewController.swift */; };
-		91200EC81F2BD566006AD068 /* .codeclimate.yml in Resources */ = {isa = PBXBuildFile; fileRef = 91200DB81F2BD566006AD068 /* .codeclimate.yml */; };
-		91200EC91F2BD566006AD068 /* .coveralls.yml in Resources */ = {isa = PBXBuildFile; fileRef = 91200DB91F2BD566006AD068 /* .coveralls.yml */; };
-		91200ECA1F2BD566006AD068 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91200DBA1F2BD566006AD068 /* .gitignore */; };
-		91200ECB1F2BD566006AD068 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 91200DBB1F2BD566006AD068 /* .travis.yml */; };
-		91200ECC1F2BD566006AD068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DBF1F2BD566006AD068 /* AppDelegate.m */; };
-		91200ECD1F2BD566006AD068 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DC21F2BD566006AD068 /* ChatTableViewCell.m */; };
-		91200ECE1F2BD566006AD068 /* ColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DC41F2BD566006AD068 /* ColorTableViewCell.m */; };
-		91200ECF1F2BD566006AD068 /* ImageSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DC61F2BD566006AD068 /* ImageSwitchTableViewCell.m */; };
-		91200ED01F2BD566006AD068 /* NavigationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DC81F2BD566006AD068 /* NavigationTableViewCell.m */; };
-		91200ED11F2BD566006AD068 /* OptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DCA1F2BD566006AD068 /* OptionTableViewCell.m */; };
-		91200ED21F2BD566006AD068 /* StepperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DCC1F2BD566006AD068 /* StepperTableViewCell.m */; };
-		91200ED31F2BD567006AD068 /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DCE1F2BD566006AD068 /* SwitchTableViewCell.m */; };
-		91200ED41F2BD567006AD068 /* TextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DD01F2BD566006AD068 /* TextFieldTableViewCell.m */; };
-		91200ED51F2BD567006AD068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91200DD21F2BD566006AD068 /* InfoPlist.strings */; };
-		91200ED61F2BD567006AD068 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91200DD51F2BD566006AD068 /* Info.plist */; };
-		91200ED71F2BD567006AD068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DD61F2BD566006AD068 /* main.m */; };
-		91200ED81F2BD567006AD068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91200DD81F2BD566006AD068 /* Main.storyboard */; };
-		91200ED91F2BD567006AD068 /* ColorPickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DDC1F2BD566006AD068 /* ColorPickerTextField.m */; };
-		91200EDA1F2BD567006AD068 /* HFColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DDF1F2BD566006AD068 /* HFColorButton.m */; };
-		91200EDB1F2BD567006AD068 /* HFColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DE11F2BD566006AD068 /* HFColorPickerView.m */; };
-		91200EDC1F2BD567006AD068 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DE31F2BD566006AD068 /* UIColor+HexColors.m */; };
-		91200EDD1F2BD567006AD068 /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DE61F2BD566006AD068 /* IQDropDownTextField.m */; };
-		91200EDE1F2BD567006AD068 /* BottomBlankSpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DE91F2BD566006AD068 /* BottomBlankSpaceViewController.m */; };
-		91200EDF1F2BD567006AD068 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DEB1F2BD566006AD068 /* ChatViewController.m */; };
-		91200EE01F2BD567006AD068 /* CollectionViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DED1F2BD566006AD068 /* CollectionViewDemoController.m */; };
-		91200EE11F2BD567006AD068 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DEF1F2BD566006AD068 /* CustomViewController.m */; };
-		91200EE21F2BD567006AD068 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DF11F2BD566006AD068 /* ExampleTableViewController.m */; };
-		91200EE31F2BD567006AD068 /* LayoutGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DF31F2BD566006AD068 /* LayoutGuideViewController.m */; };
-		91200EE41F2BD567006AD068 /* ManualToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DF51F2BD566006AD068 /* ManualToolbarViewController.m */; };
-		91200EE51F2BD567006AD068 /* NavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DF71F2BD566006AD068 /* NavigationBarViewController.m */; };
-		91200EE61F2BD567006AD068 /* RefreshLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DF91F2BD566006AD068 /* RefreshLayoutViewController.m */; };
-		91200EE71F2BD567006AD068 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DFB1F2BD566006AD068 /* ScrollViewController.m */; };
-		91200EE81F2BD567006AD068 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200DFD1F2BD566006AD068 /* SearchViewController.m */; };
-		91200EE91F2BD567006AD068 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E001F2BD566006AD068 /* OptionsViewController.m */; };
-		91200EEA1F2BD567006AD068 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E021F2BD566006AD068 /* SettingsViewController.m */; };
-		91200EEB1F2BD567006AD068 /* SpecialCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E041F2BD566006AD068 /* SpecialCaseViewController.m */; };
-		91200EEC1F2BD567006AD068 /* TableViewInContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E061F2BD566006AD068 /* TableViewInContainerViewController.m */; };
-		91200EED1F2BD567006AD068 /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E081F2BD566006AD068 /* TextFieldViewController.m */; };
-		91200EEE1F2BD567006AD068 /* TextSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E0A1F2BD566006AD068 /* TextSelectionViewController.m */; };
-		91200EEF1F2BD567006AD068 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E0C1F2BD566006AD068 /* TextViewController.m */; };
-		91200EF01F2BD567006AD068 /* TextViewSpecialCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E0E1F2BD566006AD068 /* TextViewSpecialCaseViewController.m */; };
-		91200EF11F2BD567006AD068 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E101F2BD566006AD068 /* ViewController.m */; };
-		91200EF21F2BD567006AD068 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E121F2BD566006AD068 /* WebViewController.m */; };
-		91200EF31F2BD567006AD068 /* YYTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E141F2BD566006AD068 /* YYTextViewController.m */; };
-		91200EF41F2BD567006AD068 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E171F2BD566006AD068 /* NSAttributedString+YYText.m */; };
-		91200EF51F2BD567006AD068 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E191F2BD566006AD068 /* NSParagraphStyle+YYText.m */; };
-		91200EF61F2BD567006AD068 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E1B1F2BD566006AD068 /* UIPasteboard+YYText.m */; };
-		91200EF71F2BD567006AD068 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E1D1F2BD566006AD068 /* UIView+YYText.m */; };
-		91200EF81F2BD567006AD068 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E1F1F2BD566006AD068 /* YYLabel.m */; };
-		91200EF91F2BD567006AD068 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E221F2BD566006AD068 /* YYTextArchiver.m */; };
-		91200EFA1F2BD567006AD068 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E241F2BD566006AD068 /* YYTextAsyncLayer.m */; };
-		91200EFB1F2BD567006AD068 /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E261F2BD566006AD068 /* YYTextAttribute.m */; };
-		91200EFC1F2BD567006AD068 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E281F2BD566006AD068 /* YYTextContainerView.m */; };
-		91200EFD1F2BD567006AD068 /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E2A1F2BD566006AD068 /* YYTextDebugOption.m */; };
-		91200EFE1F2BD567006AD068 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E2C1F2BD566006AD068 /* YYTextEffectWindow.m */; };
-		91200EFF1F2BD567006AD068 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E2E1F2BD566006AD068 /* YYTextInput.m */; };
-		91200F001F2BD567006AD068 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E301F2BD566006AD068 /* YYTextKeyboardManager.m */; };
-		91200F011F2BD567006AD068 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E321F2BD566006AD068 /* YYTextLayout.m */; };
-		91200F021F2BD567006AD068 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E341F2BD566006AD068 /* YYTextLine.m */; };
-		91200F031F2BD567006AD068 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E361F2BD566006AD068 /* YYTextMagnifier.m */; };
-		91200F041F2BD567006AD068 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E381F2BD566006AD068 /* YYTextParser.m */; };
-		91200F051F2BD567006AD068 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E3A1F2BD566006AD068 /* YYTextRubyAnnotation.m */; };
-		91200F061F2BD567006AD068 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E3C1F2BD566006AD068 /* YYTextRunDelegate.m */; };
-		91200F071F2BD567006AD068 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E3E1F2BD566006AD068 /* YYTextSelectionView.m */; };
-		91200F081F2BD567006AD068 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E401F2BD566006AD068 /* YYTextTransaction.m */; };
-		91200F091F2BD567006AD068 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E421F2BD566006AD068 /* YYTextUtilities.m */; };
-		91200F0A1F2BD567006AD068 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E441F2BD566006AD068 /* YYTextView.m */; };
-		91200F0B1F2BD567006AD068 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E461F2BD566006AD068 /* YYTextWeakProxy.m */; };
-		91200F0C1F2BD567006AD068 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 91200E481F2BD566006AD068 /* icon.png */; };
-		91200F0D1F2BD567006AD068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91200E491F2BD566006AD068 /* Images.xcassets */; };
-		91200F0E1F2BD567006AD068 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 91200E4B1F2BD566006AD068 /* iTunesArtwork */; };
-		91200F0F1F2BD567006AD068 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 91200E4C1F2BD566006AD068 /* iTunesArtwork@2x */; };
-		91200F101F2BD567006AD068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E4E1F2BD566006AD068 /* AppDelegate.swift */; };
-		91200F111F2BD567006AD068 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E501F2BD566006AD068 /* ChatTableViewCell.swift */; };
-		91200F121F2BD567006AD068 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E511F2BD566006AD068 /* ColorTableViewCell.swift */; };
-		91200F131F2BD567006AD068 /* ImageSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E521F2BD566006AD068 /* ImageSwitchTableViewCell.swift */; };
-		91200F141F2BD567006AD068 /* NavigationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E531F2BD566006AD068 /* NavigationTableViewCell.swift */; };
-		91200F151F2BD567006AD068 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E541F2BD566006AD068 /* OptionTableViewCell.swift */; };
-		91200F161F2BD567006AD068 /* StepperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E551F2BD566006AD068 /* StepperTableViewCell.swift */; };
-		91200F171F2BD567006AD068 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E561F2BD566006AD068 /* SwitchTableViewCell.swift */; };
-		91200F181F2BD567006AD068 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E571F2BD566006AD068 /* TextFieldTableViewCell.swift */; };
-		91200F191F2BD567006AD068 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91200E591F2BD566006AD068 /* Info.plist */; };
-		91200F1A1F2BD567006AD068 /* MainSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91200E5C1F2BD566006AD068 /* MainSwift.storyboard */; };
-		91200F1B1F2BD567006AD068 /* BottomBlankSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E5E1F2BD566006AD068 /* BottomBlankSpaceViewController.swift */; };
-		91200F1C1F2BD567006AD068 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E5F1F2BD566006AD068 /* ChatViewController.swift */; };
-		91200F1D1F2BD567006AD068 /* CollectionViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E601F2BD566006AD068 /* CollectionViewDemoController.swift */; };
-		91200F1E1F2BD567006AD068 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E611F2BD566006AD068 /* CustomViewController.swift */; };
-		91200F1F1F2BD567006AD068 /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E621F2BD566006AD068 /* ExampleTableViewController.swift */; };
-		91200F201F2BD567006AD068 /* LayoutGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E631F2BD566006AD068 /* LayoutGuideViewController.swift */; };
-		91200F211F2BD567006AD068 /* ManualToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E641F2BD566006AD068 /* ManualToolbarViewController.swift */; };
-		91200F221F2BD567006AD068 /* NavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E651F2BD566006AD068 /* NavigationBarViewController.swift */; };
-		91200F231F2BD567006AD068 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E661F2BD566006AD068 /* OptionsViewController.swift */; };
-		91200F241F2BD567006AD068 /* RefreshLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E671F2BD566006AD068 /* RefreshLayoutViewController.swift */; };
-		91200F251F2BD567006AD068 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E681F2BD566006AD068 /* ScrollViewController.swift */; };
-		91200F261F2BD567006AD068 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E691F2BD566006AD068 /* SearchViewController.swift */; };
-		91200F271F2BD567006AD068 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E6A1F2BD566006AD068 /* SettingsViewController.swift */; };
-		91200F281F2BD567006AD068 /* SpecialCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E6B1F2BD566006AD068 /* SpecialCaseViewController.swift */; };
-		91200F291F2BD567006AD068 /* TableViewInContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E6C1F2BD566006AD068 /* TableViewInContainerViewController.swift */; };
-		91200F2A1F2BD567006AD068 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E6D1F2BD566006AD068 /* TextFieldViewController.swift */; };
-		91200F2B1F2BD567006AD068 /* TextSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E6E1F2BD566006AD068 /* TextSelectionViewController.swift */; };
-		91200F2C1F2BD567006AD068 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E6F1F2BD566006AD068 /* TextViewController.swift */; };
-		91200F2D1F2BD567006AD068 /* TextViewSpecialCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E701F2BD566006AD068 /* TextViewSpecialCaseViewController.swift */; };
-		91200F2E1F2BD567006AD068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E711F2BD566006AD068 /* ViewController.swift */; };
-		91200F2F1F2BD567006AD068 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E721F2BD566006AD068 /* WebViewController.swift */; };
-		91200F301F2BD567006AD068 /* YYTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200E731F2BD566006AD068 /* YYTextViewController.swift */; };
-		91200F311F2BD567006AD068 /* DemoObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E781F2BD566006AD068 /* DemoObjCUITests.m */; };
-		91200F321F2BD567006AD068 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91200E791F2BD566006AD068 /* Info.plist */; };
-		91200F331F2BD567006AD068 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E7D1F2BD566006AD068 /* IQNSArray+Sort.m */; };
-		91200F341F2BD567006AD068 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E7F1F2BD566006AD068 /* IQUIScrollView+Additions.m */; };
-		91200F351F2BD567006AD068 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E811F2BD566006AD068 /* IQUITextFieldView+Additions.m */; };
-		91200F361F2BD567006AD068 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E831F2BD566006AD068 /* IQUIView+Hierarchy.m */; };
-		91200F371F2BD567006AD068 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E851F2BD566006AD068 /* IQUIViewController+Additions.m */; };
-		91200F381F2BD567006AD068 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E871F2BD566006AD068 /* IQUIWindow+Hierarchy.m */; };
-		91200F391F2BD567006AD068 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E8C1F2BD566006AD068 /* IQKeyboardManager.m */; };
-		91200F3A1F2BD567006AD068 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E8E1F2BD566006AD068 /* IQKeyboardReturnKeyHandler.m */; };
-		91200F3B1F2BD567006AD068 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E911F2BD566006AD068 /* IQTextView.m */; };
-		91200F3C1F2BD567006AD068 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E941F2BD566006AD068 /* IQBarButtonItem.m */; };
-		91200F3D1F2BD567006AD068 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E961F2BD566006AD068 /* IQPreviousNextView.m */; };
-		91200F3E1F2BD567006AD068 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E981F2BD566006AD068 /* IQTitleBarButtonItem.m */; };
-		91200F3F1F2BD567006AD068 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E9A1F2BD566006AD068 /* IQToolbar.m */; };
-		91200F401F2BD567006AD068 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91200E9C1F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.m */; };
-		91200F411F2BD567006AD068 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91200E9E1F2BD566006AD068 /* IQKeyboardManager.bundle */; };
-		91200F421F2BD567006AD068 /* IQKeyboardManager.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 91200E9F1F2BD566006AD068 /* IQKeyboardManager.podspec.json */; };
-		91200F431F2BD567006AD068 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EA51F2BD566006AD068 /* IQNSArray+Sort.swift */; };
-		91200F441F2BD567006AD068 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EA61F2BD566006AD068 /* IQUIScrollView+Additions.swift */; };
-		91200F451F2BD567006AD068 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EA71F2BD566006AD068 /* IQUITextFieldView+Additions.swift */; };
-		91200F461F2BD567006AD068 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EA81F2BD566006AD068 /* IQUIView+Hierarchy.swift */; };
-		91200F471F2BD567006AD068 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EA91F2BD566006AD068 /* IQUIViewController+Additions.swift */; };
-		91200F481F2BD567006AD068 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EAA1F2BD566006AD068 /* IQUIWindow+Hierarchy.swift */; };
-		91200F491F2BD567006AD068 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EAC1F2BD566006AD068 /* IQKeyboardManagerConstants.swift */; };
-		91200F4A1F2BD567006AD068 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EAD1F2BD566006AD068 /* IQKeyboardManagerConstantsInternal.swift */; };
-		91200F4B1F2BD567006AD068 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EAE1F2BD566006AD068 /* IQKeyboardManager.swift */; };
-		91200F4C1F2BD567006AD068 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB01F2BD566006AD068 /* IQKeyboardReturnKeyHandler.swift */; };
-		91200F4D1F2BD567006AD068 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB21F2BD566006AD068 /* IQTextView.swift */; };
-		91200F4E1F2BD567006AD068 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB41F2BD566006AD068 /* IQBarButtonItem.swift */; };
-		91200F4F1F2BD567006AD068 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB51F2BD566006AD068 /* IQPreviousNextView.swift */; };
-		91200F501F2BD567006AD068 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB61F2BD566006AD068 /* IQTitleBarButtonItem.swift */; };
-		91200F511F2BD567006AD068 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB71F2BD566006AD068 /* IQToolbar.swift */; };
-		91200F521F2BD567006AD068 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91200EB81F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.swift */; };
-		91200F531F2BD567006AD068 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91200EBA1F2BD566006AD068 /* IQKeyboardManager.bundle */; };
-		91200F541F2BD567006AD068 /* IQKeyboardManagerSwift.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 91200EBB1F2BD566006AD068 /* IQKeyboardManagerSwift.podspec.json */; };
-		91200F551F2BD567006AD068 /* KNOWN ISSUES.md in Sources */ = {isa = PBXBuildFile; fileRef = 91200EBC1F2BD566006AD068 /* KNOWN ISSUES.md */; };
-		91200F561F2BD567006AD068 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 91200EBD1F2BD566006AD068 /* LICENSE.md */; };
-		91200F571F2BD567006AD068 /* MANUAL MANAGEMENT.md in Sources */ = {isa = PBXBuildFile; fileRef = 91200EBE1F2BD566006AD068 /* MANUAL MANAGEMENT.md */; };
-		91200F581F2BD567006AD068 /* PROPERTIES & FUNCTIONS.md in Sources */ = {isa = PBXBuildFile; fileRef = 91200EBF1F2BD566006AD068 /* PROPERTIES & FUNCTIONS.md */; };
-		91200F591F2BD567006AD068 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 91200EC01F2BD566006AD068 /* README.md */; };
-		91200F5A1F2BD567006AD068 /* BlackToolbarIssue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91200EC21F2BD566006AD068 /* BlackToolbarIssue.jpg */; };
-		91200F5B1F2BD567006AD068 /* ChatScreenTableView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91200EC31F2BD566006AD068 /* ChatScreenTableView.jpg */; };
-		91200F5C1F2BD567006AD068 /* ChatScreenTableViewStoryboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91200EC41F2BD566006AD068 /* ChatScreenTableViewStoryboard.jpg */; };
-		91200F5D1F2BD567006AD068 /* FullScreenTextView.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91200EC51F2BD566006AD068 /* FullScreenTextView.jpeg */; };
-		91200F5E1F2BD567006AD068 /* FullScreenTextViewStoryboard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 91200EC61F2BD566006AD068 /* FullScreenTextViewStoryboard.jpeg */; };
-		91200F5F1F2BD567006AD068 /* IQKeyboardManagerScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 91200EC71F2BD566006AD068 /* IQKeyboardManagerScreenshot.png */; };
 		91C2587A1F1225830089F340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C258791F1225830089F340 /* AppDelegate.swift */; };
 		91C2587C1F1225830089F340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C2587B1F1225830089F340 /* ViewController.swift */; };
 		91C2587F1F1225830089F340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C2587D1F1225830089F340 /* Main.storyboard */; };
@@ -201,41 +51,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		91200F631F2BD567006AD068 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91200E741F2BD566006AD068 /* Demo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C0B63B9B1781FAB1008D3B64;
-			remoteInfo = DemoObjC;
-		};
-		91200F651F2BD567006AD068 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91200E741F2BD566006AD068 /* Demo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C0ACB0F519CF104B0057B571;
-			remoteInfo = DemoSwift;
-		};
-		91200F671F2BD567006AD068 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91200E741F2BD566006AD068 /* Demo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CE6119D1B98B7250020591A;
-			remoteInfo = DemoObjCUITests;
-		};
-		91200F6B1F2BD567006AD068 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91200EA01F2BD566006AD068 /* IQKeyboardManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CD2C4A61C5A615600975A7A;
-			remoteInfo = IQKeyboardManager;
-		};
-		91200F6D1F2BD567006AD068 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91200EA01F2BD566006AD068 /* IQKeyboardManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CD5970C1D1C5EBE00AB28D3;
-			remoteInfo = IQKeyboardManagerSwift;
-		};
 		91C2588B1F1225830089F340 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91C2586E1F1225830089F340 /* Project object */;
@@ -253,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		910E63731F2CAD22004AD583 /* PromoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoDetailViewController.swift; sourceTree = "<group>"; };
+		910E63771F2DBC69004AD583 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		91200D091F197FC1006AD068 /* confirmRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmRegister.swift; sourceTree = "<group>"; };
 		91200D0E1F1A289A006AD068 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		91200D101F1A56B6006AD068 /* AddWarrantyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWarrantyViewController.swift; sourceTree = "<group>"; };
@@ -283,240 +100,6 @@
 		91200DAF1F2B92A0006AD068 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		91200DB11F2B9A54006AD068 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		91200DB31F2BA2FE006AD068 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		91200DB81F2BD566006AD068 /* .codeclimate.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .codeclimate.yml; sourceTree = "<group>"; };
-		91200DB91F2BD566006AD068 /* .coveralls.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .coveralls.yml; sourceTree = "<group>"; };
-		91200DBA1F2BD566006AD068 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		91200DBB1F2BD566006AD068 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		91200DBE1F2BD566006AD068 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		91200DBF1F2BD566006AD068 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		91200DC11F2BD566006AD068 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
-		91200DC21F2BD566006AD068 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
-		91200DC31F2BD566006AD068 /* ColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTableViewCell.h; sourceTree = "<group>"; };
-		91200DC41F2BD566006AD068 /* ColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTableViewCell.m; sourceTree = "<group>"; };
-		91200DC51F2BD566006AD068 /* ImageSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSwitchTableViewCell.h; sourceTree = "<group>"; };
-		91200DC61F2BD566006AD068 /* ImageSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSwitchTableViewCell.m; sourceTree = "<group>"; };
-		91200DC71F2BD566006AD068 /* NavigationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTableViewCell.h; sourceTree = "<group>"; };
-		91200DC81F2BD566006AD068 /* NavigationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTableViewCell.m; sourceTree = "<group>"; };
-		91200DC91F2BD566006AD068 /* OptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableViewCell.h; sourceTree = "<group>"; };
-		91200DCA1F2BD566006AD068 /* OptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableViewCell.m; sourceTree = "<group>"; };
-		91200DCB1F2BD566006AD068 /* StepperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperTableViewCell.h; sourceTree = "<group>"; };
-		91200DCC1F2BD566006AD068 /* StepperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperTableViewCell.m; sourceTree = "<group>"; };
-		91200DCD1F2BD566006AD068 /* SwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTableViewCell.h; sourceTree = "<group>"; };
-		91200DCE1F2BD566006AD068 /* SwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTableViewCell.m; sourceTree = "<group>"; };
-		91200DCF1F2BD566006AD068 /* TextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableViewCell.h; sourceTree = "<group>"; };
-		91200DD01F2BD566006AD068 /* TextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableViewCell.m; sourceTree = "<group>"; };
-		91200DD31F2BD566006AD068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		91200DD41F2BD566006AD068 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		91200DD51F2BD566006AD068 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91200DD61F2BD566006AD068 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91200DD81F2BD566006AD068 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		91200DDB1F2BD566006AD068 /* ColorPickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerTextField.h; sourceTree = "<group>"; };
-		91200DDC1F2BD566006AD068 /* ColorPickerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerTextField.m; sourceTree = "<group>"; };
-		91200DDE1F2BD566006AD068 /* HFColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorButton.h; sourceTree = "<group>"; };
-		91200DDF1F2BD566006AD068 /* HFColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFColorButton.m; sourceTree = "<group>"; };
-		91200DE01F2BD566006AD068 /* HFColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorPickerView.h; sourceTree = "<group>"; };
-		91200DE11F2BD566006AD068 /* HFColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFColorPickerView.m; sourceTree = "<group>"; };
-		91200DE21F2BD566006AD068 /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColors.h"; sourceTree = "<group>"; };
-		91200DE31F2BD566006AD068 /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColors.m"; sourceTree = "<group>"; };
-		91200DE51F2BD566006AD068 /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
-		91200DE61F2BD566006AD068 /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
-		91200DE81F2BD566006AD068 /* BottomBlankSpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomBlankSpaceViewController.h; sourceTree = "<group>"; };
-		91200DE91F2BD566006AD068 /* BottomBlankSpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomBlankSpaceViewController.m; sourceTree = "<group>"; };
-		91200DEA1F2BD566006AD068 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
-		91200DEB1F2BD566006AD068 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
-		91200DEC1F2BD566006AD068 /* CollectionViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDemoController.h; sourceTree = "<group>"; };
-		91200DED1F2BD566006AD068 /* CollectionViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoController.m; sourceTree = "<group>"; };
-		91200DEE1F2BD566006AD068 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
-		91200DEF1F2BD566006AD068 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
-		91200DF01F2BD566006AD068 /* ExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
-		91200DF11F2BD566006AD068 /* ExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
-		91200DF21F2BD566006AD068 /* LayoutGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutGuideViewController.h; sourceTree = "<group>"; };
-		91200DF31F2BD566006AD068 /* LayoutGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutGuideViewController.m; sourceTree = "<group>"; };
-		91200DF41F2BD566006AD068 /* ManualToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualToolbarViewController.h; sourceTree = "<group>"; };
-		91200DF51F2BD566006AD068 /* ManualToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualToolbarViewController.m; sourceTree = "<group>"; };
-		91200DF61F2BD566006AD068 /* NavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarViewController.h; sourceTree = "<group>"; };
-		91200DF71F2BD566006AD068 /* NavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarViewController.m; sourceTree = "<group>"; };
-		91200DF81F2BD566006AD068 /* RefreshLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshLayoutViewController.h; sourceTree = "<group>"; };
-		91200DF91F2BD566006AD068 /* RefreshLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshLayoutViewController.m; sourceTree = "<group>"; };
-		91200DFA1F2BD566006AD068 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
-		91200DFB1F2BD566006AD068 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
-		91200DFC1F2BD566006AD068 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
-		91200DFD1F2BD566006AD068 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		91200DFF1F2BD566006AD068 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
-		91200E001F2BD566006AD068 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
-		91200E011F2BD566006AD068 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		91200E021F2BD566006AD068 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		91200E031F2BD566006AD068 /* SpecialCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialCaseViewController.h; sourceTree = "<group>"; };
-		91200E041F2BD566006AD068 /* SpecialCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialCaseViewController.m; sourceTree = "<group>"; };
-		91200E051F2BD566006AD068 /* TableViewInContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewInContainerViewController.h; sourceTree = "<group>"; };
-		91200E061F2BD566006AD068 /* TableViewInContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewInContainerViewController.m; sourceTree = "<group>"; };
-		91200E071F2BD566006AD068 /* TextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldViewController.h; sourceTree = "<group>"; };
-		91200E081F2BD566006AD068 /* TextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldViewController.m; sourceTree = "<group>"; };
-		91200E091F2BD566006AD068 /* TextSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSelectionViewController.h; sourceTree = "<group>"; };
-		91200E0A1F2BD566006AD068 /* TextSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSelectionViewController.m; sourceTree = "<group>"; };
-		91200E0B1F2BD566006AD068 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
-		91200E0C1F2BD566006AD068 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
-		91200E0D1F2BD566006AD068 /* TextViewSpecialCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewSpecialCaseViewController.h; sourceTree = "<group>"; };
-		91200E0E1F2BD566006AD068 /* TextViewSpecialCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewSpecialCaseViewController.m; sourceTree = "<group>"; };
-		91200E0F1F2BD566006AD068 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		91200E101F2BD566006AD068 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		91200E111F2BD566006AD068 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		91200E121F2BD566006AD068 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		91200E131F2BD566006AD068 /* YYTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextViewController.h; sourceTree = "<group>"; };
-		91200E141F2BD566006AD068 /* YYTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextViewController.m; sourceTree = "<group>"; };
-		91200E161F2BD566006AD068 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
-		91200E171F2BD566006AD068 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
-		91200E181F2BD566006AD068 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
-		91200E191F2BD566006AD068 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
-		91200E1A1F2BD566006AD068 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
-		91200E1B1F2BD566006AD068 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
-		91200E1C1F2BD566006AD068 /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
-		91200E1D1F2BD566006AD068 /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
-		91200E1E1F2BD566006AD068 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
-		91200E1F1F2BD566006AD068 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
-		91200E201F2BD566006AD068 /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
-		91200E211F2BD566006AD068 /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
-		91200E221F2BD566006AD068 /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
-		91200E231F2BD566006AD068 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
-		91200E241F2BD566006AD068 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
-		91200E251F2BD566006AD068 /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
-		91200E261F2BD566006AD068 /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
-		91200E271F2BD566006AD068 /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
-		91200E281F2BD566006AD068 /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
-		91200E291F2BD566006AD068 /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
-		91200E2A1F2BD566006AD068 /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
-		91200E2B1F2BD566006AD068 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
-		91200E2C1F2BD566006AD068 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
-		91200E2D1F2BD566006AD068 /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
-		91200E2E1F2BD566006AD068 /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
-		91200E2F1F2BD566006AD068 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
-		91200E301F2BD566006AD068 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
-		91200E311F2BD566006AD068 /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
-		91200E321F2BD566006AD068 /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
-		91200E331F2BD566006AD068 /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
-		91200E341F2BD566006AD068 /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
-		91200E351F2BD566006AD068 /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
-		91200E361F2BD566006AD068 /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
-		91200E371F2BD566006AD068 /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
-		91200E381F2BD566006AD068 /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
-		91200E391F2BD566006AD068 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
-		91200E3A1F2BD566006AD068 /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
-		91200E3B1F2BD566006AD068 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
-		91200E3C1F2BD566006AD068 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
-		91200E3D1F2BD566006AD068 /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
-		91200E3E1F2BD566006AD068 /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
-		91200E3F1F2BD566006AD068 /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
-		91200E401F2BD566006AD068 /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
-		91200E411F2BD566006AD068 /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
-		91200E421F2BD566006AD068 /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
-		91200E431F2BD566006AD068 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
-		91200E441F2BD566006AD068 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
-		91200E451F2BD566006AD068 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
-		91200E461F2BD566006AD068 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
-		91200E481F2BD566006AD068 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		91200E491F2BD566006AD068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		91200E4B1F2BD566006AD068 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		91200E4C1F2BD566006AD068 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
-		91200E4E1F2BD566006AD068 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91200E501F2BD566006AD068 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
-		91200E511F2BD566006AD068 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
-		91200E521F2BD566006AD068 /* ImageSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSwitchTableViewCell.swift; sourceTree = "<group>"; };
-		91200E531F2BD566006AD068 /* NavigationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTableViewCell.swift; sourceTree = "<group>"; };
-		91200E541F2BD566006AD068 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
-		91200E551F2BD566006AD068 /* StepperTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperTableViewCell.swift; sourceTree = "<group>"; };
-		91200E561F2BD566006AD068 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
-		91200E571F2BD566006AD068 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
-		91200E591F2BD566006AD068 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91200E5A1F2BD566006AD068 /* IQKeyboardManger-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManger-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		91200E5C1F2BD566006AD068 /* MainSwift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainSwift.storyboard; sourceTree = "<group>"; };
-		91200E5E1F2BD566006AD068 /* BottomBlankSpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBlankSpaceViewController.swift; sourceTree = "<group>"; };
-		91200E5F1F2BD566006AD068 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		91200E601F2BD566006AD068 /* CollectionViewDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDemoController.swift; sourceTree = "<group>"; };
-		91200E611F2BD566006AD068 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
-		91200E621F2BD566006AD068 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
-		91200E631F2BD566006AD068 /* LayoutGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutGuideViewController.swift; sourceTree = "<group>"; };
-		91200E641F2BD566006AD068 /* ManualToolbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualToolbarViewController.swift; sourceTree = "<group>"; };
-		91200E651F2BD566006AD068 /* NavigationBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarViewController.swift; sourceTree = "<group>"; };
-		91200E661F2BD566006AD068 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
-		91200E671F2BD566006AD068 /* RefreshLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshLayoutViewController.swift; sourceTree = "<group>"; };
-		91200E681F2BD566006AD068 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
-		91200E691F2BD566006AD068 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		91200E6A1F2BD566006AD068 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		91200E6B1F2BD566006AD068 /* SpecialCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialCaseViewController.swift; sourceTree = "<group>"; };
-		91200E6C1F2BD566006AD068 /* TableViewInContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewInContainerViewController.swift; sourceTree = "<group>"; };
-		91200E6D1F2BD566006AD068 /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
-		91200E6E1F2BD566006AD068 /* TextSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSelectionViewController.swift; sourceTree = "<group>"; };
-		91200E6F1F2BD566006AD068 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		91200E701F2BD566006AD068 /* TextViewSpecialCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewSpecialCaseViewController.swift; sourceTree = "<group>"; };
-		91200E711F2BD566006AD068 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91200E721F2BD566006AD068 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		91200E731F2BD566006AD068 /* YYTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextViewController.swift; sourceTree = "<group>"; };
-		91200E741F2BD566006AD068 /* Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Demo.xcodeproj; sourceTree = "<group>"; };
-		91200E781F2BD566006AD068 /* DemoObjCUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoObjCUITests.m; sourceTree = "<group>"; };
-		91200E791F2BD566006AD068 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91200E7C1F2BD566006AD068 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		91200E7D1F2BD566006AD068 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
-		91200E7E1F2BD566006AD068 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
-		91200E7F1F2BD566006AD068 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
-		91200E801F2BD566006AD068 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
-		91200E811F2BD566006AD068 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
-		91200E821F2BD566006AD068 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
-		91200E831F2BD566006AD068 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		91200E841F2BD566006AD068 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
-		91200E851F2BD566006AD068 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
-		91200E861F2BD566006AD068 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
-		91200E871F2BD566006AD068 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
-		91200E891F2BD566006AD068 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		91200E8A1F2BD566006AD068 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		91200E8B1F2BD566006AD068 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
-		91200E8C1F2BD566006AD068 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
-		91200E8D1F2BD566006AD068 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
-		91200E8E1F2BD566006AD068 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
-		91200E901F2BD566006AD068 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
-		91200E911F2BD566006AD068 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
-		91200E931F2BD566006AD068 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
-		91200E941F2BD566006AD068 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
-		91200E951F2BD566006AD068 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
-		91200E961F2BD566006AD068 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
-		91200E971F2BD566006AD068 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		91200E981F2BD566006AD068 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
-		91200E991F2BD566006AD068 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
-		91200E9A1F2BD566006AD068 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
-		91200E9B1F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		91200E9C1F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		91200E9E1F2BD566006AD068 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		91200E9F1F2BD566006AD068 /* IQKeyboardManager.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IQKeyboardManager.podspec.json; sourceTree = "<group>"; };
-		91200EA01F2BD566006AD068 /* IQKeyboardManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = IQKeyboardManager.xcodeproj; sourceTree = "<group>"; };
-		91200EA51F2BD566006AD068 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
-		91200EA61F2BD566006AD068 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
-		91200EA71F2BD566006AD068 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
-		91200EA81F2BD566006AD068 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
-		91200EA91F2BD566006AD068 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
-		91200EAA1F2BD566006AD068 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
-		91200EAC1F2BD566006AD068 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
-		91200EAD1F2BD566006AD068 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
-		91200EAE1F2BD566006AD068 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
-		91200EAF1F2BD566006AD068 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
-		91200EB01F2BD566006AD068 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
-		91200EB21F2BD566006AD068 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
-		91200EB41F2BD566006AD068 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
-		91200EB51F2BD566006AD068 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
-		91200EB61F2BD566006AD068 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
-		91200EB71F2BD566006AD068 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
-		91200EB81F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
-		91200EBA1F2BD566006AD068 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		91200EBB1F2BD566006AD068 /* IQKeyboardManagerSwift.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IQKeyboardManagerSwift.podspec.json; sourceTree = "<group>"; };
-		91200EBC1F2BD566006AD068 /* KNOWN ISSUES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "KNOWN ISSUES.md"; sourceTree = "<group>"; };
-		91200EBD1F2BD566006AD068 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		91200EBE1F2BD566006AD068 /* MANUAL MANAGEMENT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "MANUAL MANAGEMENT.md"; sourceTree = "<group>"; };
-		91200EBF1F2BD566006AD068 /* PROPERTIES & FUNCTIONS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "PROPERTIES & FUNCTIONS.md"; sourceTree = "<group>"; };
-		91200EC01F2BD566006AD068 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		91200EC21F2BD566006AD068 /* BlackToolbarIssue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlackToolbarIssue.jpg; sourceTree = "<group>"; };
-		91200EC31F2BD566006AD068 /* ChatScreenTableView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChatScreenTableView.jpg; sourceTree = "<group>"; };
-		91200EC41F2BD566006AD068 /* ChatScreenTableViewStoryboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChatScreenTableViewStoryboard.jpg; sourceTree = "<group>"; };
-		91200EC51F2BD566006AD068 /* FullScreenTextView.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullScreenTextView.jpeg; sourceTree = "<group>"; };
-		91200EC61F2BD566006AD068 /* FullScreenTextViewStoryboard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullScreenTextViewStoryboard.jpeg; sourceTree = "<group>"; };
-		91200EC71F2BD566006AD068 /* IQKeyboardManagerScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IQKeyboardManagerScreenshot.png; sourceTree = "<group>"; };
 		91C258761F1225830089F340 /* MyISProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyISProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C258791F1225830089F340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C2587B1F1225830089F340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -564,7 +147,6 @@
 		91200D6B1F1E48B4006AD068 /* ScanQR */ = {
 			isa = PBXGroup;
 			children = (
-				91200D6C1F1E48F3006AD068 /* ScanViewController.swift */,
 				91200D741F1E58B1006AD068 /* QRCodeReaderViewControllerBuilder.swift */,
 				91200D761F1E59C3006AD068 /* QRCodeReader.swift */,
 				91200D781F1E59F1006AD068 /* QRCodeReaderResult.swift */,
@@ -579,9 +161,10 @@
 			name = ScanQR;
 			sourceTree = "<group>";
 		};
-		91200D8A1F210342006AD068 /* Menu */ = {
+		91200D8A1F210342006AD068 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				91200D141F1A77BB006AD068 /* DetailWarrantyViewController.swift */,
 				91200D101F1A56B6006AD068 /* AddWarrantyViewController.swift */,
 				91200D921F234A46006AD068 /* ContactViewController.swift */,
 				91200D091F197FC1006AD068 /* confirmRegister.swift */,
@@ -593,8 +176,11 @@
 				91200DAB1F2B4158006AD068 /* ConfirmQRViewController.swift */,
 				91200DB11F2B9A54006AD068 /* WebViewController.swift */,
 				91200DB31F2BA2FE006AD068 /* NotificationViewController.swift */,
+				91200D6C1F1E48F3006AD068 /* ScanViewController.swift */,
+				910E63731F2CAD22004AD583 /* PromoDetailViewController.swift */,
+				910E63771F2DBC69004AD583 /* SettingTableViewController.swift */,
 			);
-			name = Menu;
+			name = Screen;
 			sourceTree = "<group>";
 		};
 		91200D8F1F210E33006AD068 /* manage */ = {
@@ -633,533 +219,9 @@
 			name = class;
 			sourceTree = "<group>";
 		};
-		91200DB71F2BD566006AD068 /* IQKeyboardManager-swift3 */ = {
-			isa = PBXGroup;
-			children = (
-				91200DB81F2BD566006AD068 /* .codeclimate.yml */,
-				91200DB91F2BD566006AD068 /* .coveralls.yml */,
-				91200DBA1F2BD566006AD068 /* .gitignore */,
-				91200DBB1F2BD566006AD068 /* .travis.yml */,
-				91200DBC1F2BD566006AD068 /* Demo */,
-				91200E741F2BD566006AD068 /* Demo.xcodeproj */,
-				91200E771F2BD566006AD068 /* DemoObjCUITests */,
-				91200E7A1F2BD566006AD068 /* IQKeyboardManager */,
-				91200E9F1F2BD566006AD068 /* IQKeyboardManager.podspec.json */,
-				91200EA01F2BD566006AD068 /* IQKeyboardManager.xcodeproj */,
-				91200EA31F2BD566006AD068 /* IQKeyboardManagerSwift */,
-				91200EBB1F2BD566006AD068 /* IQKeyboardManagerSwift.podspec.json */,
-				91200EBC1F2BD566006AD068 /* KNOWN ISSUES.md */,
-				91200EBD1F2BD566006AD068 /* LICENSE.md */,
-				91200EBE1F2BD566006AD068 /* MANUAL MANAGEMENT.md */,
-				91200EBF1F2BD566006AD068 /* PROPERTIES & FUNCTIONS.md */,
-				91200EC01F2BD566006AD068 /* README.md */,
-				91200EC11F2BD566006AD068 /* Screenshot */,
-			);
-			path = "IQKeyboardManager-swift3";
-			sourceTree = "<group>";
-		};
-		91200DBC1F2BD566006AD068 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				91200DBD1F2BD566006AD068 /* Objective_C_Demo */,
-				91200E471F2BD566006AD068 /* Resources */,
-				91200E4D1F2BD566006AD068 /* Swift_Demo */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		91200DBD1F2BD566006AD068 /* Objective_C_Demo */ = {
-			isa = PBXGroup;
-			children = (
-				91200DBE1F2BD566006AD068 /* AppDelegate.h */,
-				91200DBF1F2BD566006AD068 /* AppDelegate.m */,
-				91200DC01F2BD566006AD068 /* Cell */,
-				91200DD11F2BD566006AD068 /* Resources */,
-				91200DD71F2BD566006AD068 /* Storyboard */,
-				91200DD91F2BD566006AD068 /* Third Party */,
-				91200DE71F2BD566006AD068 /* ViewController */,
-				91200E151F2BD566006AD068 /* YYText */,
-			);
-			path = Objective_C_Demo;
-			sourceTree = "<group>";
-		};
-		91200DC01F2BD566006AD068 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				91200DC11F2BD566006AD068 /* ChatTableViewCell.h */,
-				91200DC21F2BD566006AD068 /* ChatTableViewCell.m */,
-				91200DC31F2BD566006AD068 /* ColorTableViewCell.h */,
-				91200DC41F2BD566006AD068 /* ColorTableViewCell.m */,
-				91200DC51F2BD566006AD068 /* ImageSwitchTableViewCell.h */,
-				91200DC61F2BD566006AD068 /* ImageSwitchTableViewCell.m */,
-				91200DC71F2BD566006AD068 /* NavigationTableViewCell.h */,
-				91200DC81F2BD566006AD068 /* NavigationTableViewCell.m */,
-				91200DC91F2BD566006AD068 /* OptionTableViewCell.h */,
-				91200DCA1F2BD566006AD068 /* OptionTableViewCell.m */,
-				91200DCB1F2BD566006AD068 /* StepperTableViewCell.h */,
-				91200DCC1F2BD566006AD068 /* StepperTableViewCell.m */,
-				91200DCD1F2BD566006AD068 /* SwitchTableViewCell.h */,
-				91200DCE1F2BD566006AD068 /* SwitchTableViewCell.m */,
-				91200DCF1F2BD566006AD068 /* TextFieldTableViewCell.h */,
-				91200DD01F2BD566006AD068 /* TextFieldTableViewCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		91200DD11F2BD566006AD068 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91200DD21F2BD566006AD068 /* InfoPlist.strings */,
-				91200DD51F2BD566006AD068 /* Info.plist */,
-				91200DD61F2BD566006AD068 /* main.m */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		91200DD71F2BD566006AD068 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				91200DD81F2BD566006AD068 /* Main.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		91200DD91F2BD566006AD068 /* Third Party */ = {
-			isa = PBXGroup;
-			children = (
-				91200DDA1F2BD566006AD068 /* Color Picker TextField */,
-				91200DE41F2BD566006AD068 /* IQDropDownTextField */,
-			);
-			path = "Third Party";
-			sourceTree = "<group>";
-		};
-		91200DDA1F2BD566006AD068 /* Color Picker TextField */ = {
-			isa = PBXGroup;
-			children = (
-				91200DDB1F2BD566006AD068 /* ColorPickerTextField.h */,
-				91200DDC1F2BD566006AD068 /* ColorPickerTextField.m */,
-				91200DDD1F2BD566006AD068 /* HFColorPicker */,
-				91200DE21F2BD566006AD068 /* UIColor+HexColors.h */,
-				91200DE31F2BD566006AD068 /* UIColor+HexColors.m */,
-			);
-			path = "Color Picker TextField";
-			sourceTree = "<group>";
-		};
-		91200DDD1F2BD566006AD068 /* HFColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				91200DDE1F2BD566006AD068 /* HFColorButton.h */,
-				91200DDF1F2BD566006AD068 /* HFColorButton.m */,
-				91200DE01F2BD566006AD068 /* HFColorPickerView.h */,
-				91200DE11F2BD566006AD068 /* HFColorPickerView.m */,
-			);
-			path = HFColorPicker;
-			sourceTree = "<group>";
-		};
-		91200DE41F2BD566006AD068 /* IQDropDownTextField */ = {
-			isa = PBXGroup;
-			children = (
-				91200DE51F2BD566006AD068 /* IQDropDownTextField.h */,
-				91200DE61F2BD566006AD068 /* IQDropDownTextField.m */,
-			);
-			path = IQDropDownTextField;
-			sourceTree = "<group>";
-		};
-		91200DE71F2BD566006AD068 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				91200DE81F2BD566006AD068 /* BottomBlankSpaceViewController.h */,
-				91200DE91F2BD566006AD068 /* BottomBlankSpaceViewController.m */,
-				91200DEA1F2BD566006AD068 /* ChatViewController.h */,
-				91200DEB1F2BD566006AD068 /* ChatViewController.m */,
-				91200DEC1F2BD566006AD068 /* CollectionViewDemoController.h */,
-				91200DED1F2BD566006AD068 /* CollectionViewDemoController.m */,
-				91200DEE1F2BD566006AD068 /* CustomViewController.h */,
-				91200DEF1F2BD566006AD068 /* CustomViewController.m */,
-				91200DF01F2BD566006AD068 /* ExampleTableViewController.h */,
-				91200DF11F2BD566006AD068 /* ExampleTableViewController.m */,
-				91200DF21F2BD566006AD068 /* LayoutGuideViewController.h */,
-				91200DF31F2BD566006AD068 /* LayoutGuideViewController.m */,
-				91200DF41F2BD566006AD068 /* ManualToolbarViewController.h */,
-				91200DF51F2BD566006AD068 /* ManualToolbarViewController.m */,
-				91200DF61F2BD566006AD068 /* NavigationBarViewController.h */,
-				91200DF71F2BD566006AD068 /* NavigationBarViewController.m */,
-				91200DF81F2BD566006AD068 /* RefreshLayoutViewController.h */,
-				91200DF91F2BD566006AD068 /* RefreshLayoutViewController.m */,
-				91200DFA1F2BD566006AD068 /* ScrollViewController.h */,
-				91200DFB1F2BD566006AD068 /* ScrollViewController.m */,
-				91200DFC1F2BD566006AD068 /* SearchViewController.h */,
-				91200DFD1F2BD566006AD068 /* SearchViewController.m */,
-				91200DFE1F2BD566006AD068 /* Settings */,
-				91200E031F2BD566006AD068 /* SpecialCaseViewController.h */,
-				91200E041F2BD566006AD068 /* SpecialCaseViewController.m */,
-				91200E051F2BD566006AD068 /* TableViewInContainerViewController.h */,
-				91200E061F2BD566006AD068 /* TableViewInContainerViewController.m */,
-				91200E071F2BD566006AD068 /* TextFieldViewController.h */,
-				91200E081F2BD566006AD068 /* TextFieldViewController.m */,
-				91200E091F2BD566006AD068 /* TextSelectionViewController.h */,
-				91200E0A1F2BD566006AD068 /* TextSelectionViewController.m */,
-				91200E0B1F2BD566006AD068 /* TextViewController.h */,
-				91200E0C1F2BD566006AD068 /* TextViewController.m */,
-				91200E0D1F2BD566006AD068 /* TextViewSpecialCaseViewController.h */,
-				91200E0E1F2BD566006AD068 /* TextViewSpecialCaseViewController.m */,
-				91200E0F1F2BD566006AD068 /* ViewController.h */,
-				91200E101F2BD566006AD068 /* ViewController.m */,
-				91200E111F2BD566006AD068 /* WebViewController.h */,
-				91200E121F2BD566006AD068 /* WebViewController.m */,
-				91200E131F2BD566006AD068 /* YYTextViewController.h */,
-				91200E141F2BD566006AD068 /* YYTextViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		91200DFE1F2BD566006AD068 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				91200DFF1F2BD566006AD068 /* OptionsViewController.h */,
-				91200E001F2BD566006AD068 /* OptionsViewController.m */,
-				91200E011F2BD566006AD068 /* SettingsViewController.h */,
-				91200E021F2BD566006AD068 /* SettingsViewController.m */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		91200E151F2BD566006AD068 /* YYText */ = {
-			isa = PBXGroup;
-			children = (
-				91200E161F2BD566006AD068 /* NSAttributedString+YYText.h */,
-				91200E171F2BD566006AD068 /* NSAttributedString+YYText.m */,
-				91200E181F2BD566006AD068 /* NSParagraphStyle+YYText.h */,
-				91200E191F2BD566006AD068 /* NSParagraphStyle+YYText.m */,
-				91200E1A1F2BD566006AD068 /* UIPasteboard+YYText.h */,
-				91200E1B1F2BD566006AD068 /* UIPasteboard+YYText.m */,
-				91200E1C1F2BD566006AD068 /* UIView+YYText.h */,
-				91200E1D1F2BD566006AD068 /* UIView+YYText.m */,
-				91200E1E1F2BD566006AD068 /* YYLabel.h */,
-				91200E1F1F2BD566006AD068 /* YYLabel.m */,
-				91200E201F2BD566006AD068 /* YYText.h */,
-				91200E211F2BD566006AD068 /* YYTextArchiver.h */,
-				91200E221F2BD566006AD068 /* YYTextArchiver.m */,
-				91200E231F2BD566006AD068 /* YYTextAsyncLayer.h */,
-				91200E241F2BD566006AD068 /* YYTextAsyncLayer.m */,
-				91200E251F2BD566006AD068 /* YYTextAttribute.h */,
-				91200E261F2BD566006AD068 /* YYTextAttribute.m */,
-				91200E271F2BD566006AD068 /* YYTextContainerView.h */,
-				91200E281F2BD566006AD068 /* YYTextContainerView.m */,
-				91200E291F2BD566006AD068 /* YYTextDebugOption.h */,
-				91200E2A1F2BD566006AD068 /* YYTextDebugOption.m */,
-				91200E2B1F2BD566006AD068 /* YYTextEffectWindow.h */,
-				91200E2C1F2BD566006AD068 /* YYTextEffectWindow.m */,
-				91200E2D1F2BD566006AD068 /* YYTextInput.h */,
-				91200E2E1F2BD566006AD068 /* YYTextInput.m */,
-				91200E2F1F2BD566006AD068 /* YYTextKeyboardManager.h */,
-				91200E301F2BD566006AD068 /* YYTextKeyboardManager.m */,
-				91200E311F2BD566006AD068 /* YYTextLayout.h */,
-				91200E321F2BD566006AD068 /* YYTextLayout.m */,
-				91200E331F2BD566006AD068 /* YYTextLine.h */,
-				91200E341F2BD566006AD068 /* YYTextLine.m */,
-				91200E351F2BD566006AD068 /* YYTextMagnifier.h */,
-				91200E361F2BD566006AD068 /* YYTextMagnifier.m */,
-				91200E371F2BD566006AD068 /* YYTextParser.h */,
-				91200E381F2BD566006AD068 /* YYTextParser.m */,
-				91200E391F2BD566006AD068 /* YYTextRubyAnnotation.h */,
-				91200E3A1F2BD566006AD068 /* YYTextRubyAnnotation.m */,
-				91200E3B1F2BD566006AD068 /* YYTextRunDelegate.h */,
-				91200E3C1F2BD566006AD068 /* YYTextRunDelegate.m */,
-				91200E3D1F2BD566006AD068 /* YYTextSelectionView.h */,
-				91200E3E1F2BD566006AD068 /* YYTextSelectionView.m */,
-				91200E3F1F2BD566006AD068 /* YYTextTransaction.h */,
-				91200E401F2BD566006AD068 /* YYTextTransaction.m */,
-				91200E411F2BD566006AD068 /* YYTextUtilities.h */,
-				91200E421F2BD566006AD068 /* YYTextUtilities.m */,
-				91200E431F2BD566006AD068 /* YYTextView.h */,
-				91200E441F2BD566006AD068 /* YYTextView.m */,
-				91200E451F2BD566006AD068 /* YYTextWeakProxy.h */,
-				91200E461F2BD566006AD068 /* YYTextWeakProxy.m */,
-			);
-			path = YYText;
-			sourceTree = "<group>";
-		};
-		91200E471F2BD566006AD068 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91200E481F2BD566006AD068 /* icon.png */,
-				91200E491F2BD566006AD068 /* Images.xcassets */,
-				91200E4A1F2BD566006AD068 /* iTunesArtwork */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		91200E4A1F2BD566006AD068 /* iTunesArtwork */ = {
-			isa = PBXGroup;
-			children = (
-				91200E4B1F2BD566006AD068 /* iTunesArtwork */,
-				91200E4C1F2BD566006AD068 /* iTunesArtwork@2x */,
-			);
-			path = iTunesArtwork;
-			sourceTree = "<group>";
-		};
-		91200E4D1F2BD566006AD068 /* Swift_Demo */ = {
-			isa = PBXGroup;
-			children = (
-				91200E4E1F2BD566006AD068 /* AppDelegate.swift */,
-				91200E4F1F2BD566006AD068 /* Cell */,
-				91200E581F2BD566006AD068 /* Resources */,
-				91200E5B1F2BD566006AD068 /* Storyboard */,
-				91200E5D1F2BD566006AD068 /* ViewController */,
-			);
-			path = Swift_Demo;
-			sourceTree = "<group>";
-		};
-		91200E4F1F2BD566006AD068 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				91200E501F2BD566006AD068 /* ChatTableViewCell.swift */,
-				91200E511F2BD566006AD068 /* ColorTableViewCell.swift */,
-				91200E521F2BD566006AD068 /* ImageSwitchTableViewCell.swift */,
-				91200E531F2BD566006AD068 /* NavigationTableViewCell.swift */,
-				91200E541F2BD566006AD068 /* OptionTableViewCell.swift */,
-				91200E551F2BD566006AD068 /* StepperTableViewCell.swift */,
-				91200E561F2BD566006AD068 /* SwitchTableViewCell.swift */,
-				91200E571F2BD566006AD068 /* TextFieldTableViewCell.swift */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		91200E581F2BD566006AD068 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91200E591F2BD566006AD068 /* Info.plist */,
-				91200E5A1F2BD566006AD068 /* IQKeyboardManger-Swift-Bridging-Header.h */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		91200E5B1F2BD566006AD068 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				91200E5C1F2BD566006AD068 /* MainSwift.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		91200E5D1F2BD566006AD068 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				91200E5E1F2BD566006AD068 /* BottomBlankSpaceViewController.swift */,
-				91200E5F1F2BD566006AD068 /* ChatViewController.swift */,
-				91200E601F2BD566006AD068 /* CollectionViewDemoController.swift */,
-				91200E611F2BD566006AD068 /* CustomViewController.swift */,
-				91200E621F2BD566006AD068 /* ExampleTableViewController.swift */,
-				91200E631F2BD566006AD068 /* LayoutGuideViewController.swift */,
-				91200E641F2BD566006AD068 /* ManualToolbarViewController.swift */,
-				91200E651F2BD566006AD068 /* NavigationBarViewController.swift */,
-				91200E661F2BD566006AD068 /* OptionsViewController.swift */,
-				91200E671F2BD566006AD068 /* RefreshLayoutViewController.swift */,
-				91200E681F2BD566006AD068 /* ScrollViewController.swift */,
-				91200E691F2BD566006AD068 /* SearchViewController.swift */,
-				91200E6A1F2BD566006AD068 /* SettingsViewController.swift */,
-				91200E6B1F2BD566006AD068 /* SpecialCaseViewController.swift */,
-				91200E6C1F2BD566006AD068 /* TableViewInContainerViewController.swift */,
-				91200E6D1F2BD566006AD068 /* TextFieldViewController.swift */,
-				91200E6E1F2BD566006AD068 /* TextSelectionViewController.swift */,
-				91200E6F1F2BD566006AD068 /* TextViewController.swift */,
-				91200E701F2BD566006AD068 /* TextViewSpecialCaseViewController.swift */,
-				91200E711F2BD566006AD068 /* ViewController.swift */,
-				91200E721F2BD566006AD068 /* WebViewController.swift */,
-				91200E731F2BD566006AD068 /* YYTextViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		91200E751F2BD566006AD068 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				91200F641F2BD567006AD068 /* IQKeyboardManager.app */,
-				91200F661F2BD567006AD068 /* DemoSwift.app */,
-				91200F681F2BD567006AD068 /* DemoObjCUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		91200E771F2BD566006AD068 /* DemoObjCUITests */ = {
-			isa = PBXGroup;
-			children = (
-				91200E781F2BD566006AD068 /* DemoObjCUITests.m */,
-				91200E791F2BD566006AD068 /* Info.plist */,
-			);
-			path = DemoObjCUITests;
-			sourceTree = "<group>";
-		};
-		91200E7A1F2BD566006AD068 /* IQKeyboardManager */ = {
-			isa = PBXGroup;
-			children = (
-				91200E7B1F2BD566006AD068 /* Categories */,
-				91200E881F2BD566006AD068 /* Constants */,
-				91200E8B1F2BD566006AD068 /* IQKeyboardManager.h */,
-				91200E8C1F2BD566006AD068 /* IQKeyboardManager.m */,
-				91200E8D1F2BD566006AD068 /* IQKeyboardReturnKeyHandler.h */,
-				91200E8E1F2BD566006AD068 /* IQKeyboardReturnKeyHandler.m */,
-				91200E8F1F2BD566006AD068 /* IQTextView */,
-				91200E921F2BD566006AD068 /* IQToolbar */,
-				91200E9D1F2BD566006AD068 /* Resources */,
-			);
-			path = IQKeyboardManager;
-			sourceTree = "<group>";
-		};
-		91200E7B1F2BD566006AD068 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				91200E7C1F2BD566006AD068 /* IQNSArray+Sort.h */,
-				91200E7D1F2BD566006AD068 /* IQNSArray+Sort.m */,
-				91200E7E1F2BD566006AD068 /* IQUIScrollView+Additions.h */,
-				91200E7F1F2BD566006AD068 /* IQUIScrollView+Additions.m */,
-				91200E801F2BD566006AD068 /* IQUITextFieldView+Additions.h */,
-				91200E811F2BD566006AD068 /* IQUITextFieldView+Additions.m */,
-				91200E821F2BD566006AD068 /* IQUIView+Hierarchy.h */,
-				91200E831F2BD566006AD068 /* IQUIView+Hierarchy.m */,
-				91200E841F2BD566006AD068 /* IQUIViewController+Additions.h */,
-				91200E851F2BD566006AD068 /* IQUIViewController+Additions.m */,
-				91200E861F2BD566006AD068 /* IQUIWindow+Hierarchy.h */,
-				91200E871F2BD566006AD068 /* IQUIWindow+Hierarchy.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		91200E881F2BD566006AD068 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				91200E891F2BD566006AD068 /* IQKeyboardManagerConstants.h */,
-				91200E8A1F2BD566006AD068 /* IQKeyboardManagerConstantsInternal.h */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		91200E8F1F2BD566006AD068 /* IQTextView */ = {
-			isa = PBXGroup;
-			children = (
-				91200E901F2BD566006AD068 /* IQTextView.h */,
-				91200E911F2BD566006AD068 /* IQTextView.m */,
-			);
-			path = IQTextView;
-			sourceTree = "<group>";
-		};
-		91200E921F2BD566006AD068 /* IQToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				91200E931F2BD566006AD068 /* IQBarButtonItem.h */,
-				91200E941F2BD566006AD068 /* IQBarButtonItem.m */,
-				91200E951F2BD566006AD068 /* IQPreviousNextView.h */,
-				91200E961F2BD566006AD068 /* IQPreviousNextView.m */,
-				91200E971F2BD566006AD068 /* IQTitleBarButtonItem.h */,
-				91200E981F2BD566006AD068 /* IQTitleBarButtonItem.m */,
-				91200E991F2BD566006AD068 /* IQToolbar.h */,
-				91200E9A1F2BD566006AD068 /* IQToolbar.m */,
-				91200E9B1F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.h */,
-				91200E9C1F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.m */,
-			);
-			path = IQToolbar;
-			sourceTree = "<group>";
-		};
-		91200E9D1F2BD566006AD068 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91200E9E1F2BD566006AD068 /* IQKeyboardManager.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		91200EA11F2BD566006AD068 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				91200F6C1F2BD567006AD068 /* IQKeyboardManager.framework */,
-				91200F6E1F2BD567006AD068 /* IQKeyboardManagerSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		91200EA31F2BD566006AD068 /* IQKeyboardManagerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				91200EA41F2BD566006AD068 /* Categories */,
-				91200EAB1F2BD566006AD068 /* Constants */,
-				91200EAE1F2BD566006AD068 /* IQKeyboardManager.swift */,
-				91200EAF1F2BD566006AD068 /* IQKeyboardManagerSwift.h */,
-				91200EB01F2BD566006AD068 /* IQKeyboardReturnKeyHandler.swift */,
-				91200EB11F2BD566006AD068 /* IQTextView */,
-				91200EB31F2BD566006AD068 /* IQToolbar */,
-				91200EB91F2BD566006AD068 /* Resources */,
-			);
-			path = IQKeyboardManagerSwift;
-			sourceTree = "<group>";
-		};
-		91200EA41F2BD566006AD068 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				91200EA51F2BD566006AD068 /* IQNSArray+Sort.swift */,
-				91200EA61F2BD566006AD068 /* IQUIScrollView+Additions.swift */,
-				91200EA71F2BD566006AD068 /* IQUITextFieldView+Additions.swift */,
-				91200EA81F2BD566006AD068 /* IQUIView+Hierarchy.swift */,
-				91200EA91F2BD566006AD068 /* IQUIViewController+Additions.swift */,
-				91200EAA1F2BD566006AD068 /* IQUIWindow+Hierarchy.swift */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		91200EAB1F2BD566006AD068 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				91200EAC1F2BD566006AD068 /* IQKeyboardManagerConstants.swift */,
-				91200EAD1F2BD566006AD068 /* IQKeyboardManagerConstantsInternal.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		91200EB11F2BD566006AD068 /* IQTextView */ = {
-			isa = PBXGroup;
-			children = (
-				91200EB21F2BD566006AD068 /* IQTextView.swift */,
-			);
-			path = IQTextView;
-			sourceTree = "<group>";
-		};
-		91200EB31F2BD566006AD068 /* IQToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				91200EB41F2BD566006AD068 /* IQBarButtonItem.swift */,
-				91200EB51F2BD566006AD068 /* IQPreviousNextView.swift */,
-				91200EB61F2BD566006AD068 /* IQTitleBarButtonItem.swift */,
-				91200EB71F2BD566006AD068 /* IQToolbar.swift */,
-				91200EB81F2BD566006AD068 /* IQUIView+IQKeyboardToolbar.swift */,
-			);
-			path = IQToolbar;
-			sourceTree = "<group>";
-		};
-		91200EB91F2BD566006AD068 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91200EBA1F2BD566006AD068 /* IQKeyboardManager.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		91200EC11F2BD566006AD068 /* Screenshot */ = {
-			isa = PBXGroup;
-			children = (
-				91200EC21F2BD566006AD068 /* BlackToolbarIssue.jpg */,
-				91200EC31F2BD566006AD068 /* ChatScreenTableView.jpg */,
-				91200EC41F2BD566006AD068 /* ChatScreenTableViewStoryboard.jpg */,
-				91200EC51F2BD566006AD068 /* FullScreenTextView.jpeg */,
-				91200EC61F2BD566006AD068 /* FullScreenTextViewStoryboard.jpeg */,
-				91200EC71F2BD566006AD068 /* IQKeyboardManagerScreenshot.png */,
-			);
-			path = Screenshot;
-			sourceTree = "<group>";
-		};
 		91C2586D1F1225830089F340 = {
 			isa = PBXGroup;
 			children = (
-				91200DB71F2BD566006AD068 /* IQKeyboardManager-swift3 */,
 				91200DA81F2B3708006AD068 /* class */,
 				91C258781F1225830089F340 /* MyISProject */,
 				91C2588D1F1225830089F340 /* MyISProjectTests */,
@@ -1184,7 +246,7 @@
 			children = (
 				91200D9B1F23A8D3006AD068 /* Sub Screen */,
 				91200D8F1F210E33006AD068 /* manage */,
-				91200D8A1F210342006AD068 /* Menu */,
+				91200D8A1F210342006AD068 /* Screen */,
 				91200D6B1F1E48B4006AD068 /* ScanQR */,
 				91C258791F1225830089F340 /* AppDelegate.swift */,
 				91C2587D1F1225830089F340 /* Main.storyboard */,
@@ -1193,7 +255,6 @@
 				91C258851F1225830089F340 /* Info.plist */,
 				91C258AC1F167CC80089F340 /* constant.swift */,
 				91200D121F1A692C006AD068 /* ScanQR.swift */,
-				91200D141F1A77BB006AD068 /* DetailWarrantyViewController.swift */,
 			);
 			path = MyISProject;
 			sourceTree = "<group>";
@@ -1313,16 +374,6 @@
 			mainGroup = 91C2586D1F1225830089F340;
 			productRefGroup = 91C258771F1225830089F340 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 91200E751F2BD566006AD068 /* Products */;
-					ProjectRef = 91200E741F2BD566006AD068 /* Demo.xcodeproj */;
-				},
-				{
-					ProductGroup = 91200EA11F2BD566006AD068 /* Products */;
-					ProjectRef = 91200EA01F2BD566006AD068 /* IQKeyboardManager.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				91C258751F1225830089F340 /* MyISProject */,
@@ -1332,76 +383,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		91200F641F2BD567006AD068 /* IQKeyboardManager.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = IQKeyboardManager.app;
-			remoteRef = 91200F631F2BD567006AD068 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91200F661F2BD567006AD068 /* DemoSwift.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = DemoSwift.app;
-			remoteRef = 91200F651F2BD567006AD068 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91200F681F2BD567006AD068 /* DemoObjCUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DemoObjCUITests.xctest;
-			remoteRef = 91200F671F2BD567006AD068 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91200F6C1F2BD567006AD068 /* IQKeyboardManager.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = IQKeyboardManager.framework;
-			remoteRef = 91200F6B1F2BD567006AD068 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91200F6E1F2BD567006AD068 /* IQKeyboardManagerSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = IQKeyboardManagerSwift.framework;
-			remoteRef = 91200F6D1F2BD567006AD068 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		91C258741F1225830089F340 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91200EC81F2BD566006AD068 /* .codeclimate.yml in Resources */,
-				91200F0E1F2BD567006AD068 /* iTunesArtwork in Resources */,
-				91200F421F2BD567006AD068 /* IQKeyboardManager.podspec.json in Resources */,
-				91200F5A1F2BD567006AD068 /* BlackToolbarIssue.jpg in Resources */,
-				91200F0F1F2BD567006AD068 /* iTunesArtwork@2x in Resources */,
-				91200ED81F2BD567006AD068 /* Main.storyboard in Resources */,
-				91200ED51F2BD567006AD068 /* InfoPlist.strings in Resources */,
-				91200ED61F2BD567006AD068 /* Info.plist in Resources */,
 				91C258841F1225830089F340 /* LaunchScreen.storyboard in Resources */,
 				91C258811F1225830089F340 /* Assets.xcassets in Resources */,
-				91200F411F2BD567006AD068 /* IQKeyboardManager.bundle in Resources */,
-				91200F531F2BD567006AD068 /* IQKeyboardManager.bundle in Resources */,
-				91200F5C1F2BD567006AD068 /* ChatScreenTableViewStoryboard.jpg in Resources */,
-				91200F5E1F2BD567006AD068 /* FullScreenTextViewStoryboard.jpeg in Resources */,
-				91200F191F2BD567006AD068 /* Info.plist in Resources */,
-				91200F5B1F2BD567006AD068 /* ChatScreenTableView.jpg in Resources */,
-				91200F0C1F2BD567006AD068 /* icon.png in Resources */,
-				91200F5D1F2BD567006AD068 /* FullScreenTextView.jpeg in Resources */,
-				91200F321F2BD567006AD068 /* Info.plist in Resources */,
-				91200EC91F2BD566006AD068 /* .coveralls.yml in Resources */,
-				91200ECA1F2BD566006AD068 /* .gitignore in Resources */,
-				91200F5F1F2BD567006AD068 /* IQKeyboardManagerScreenshot.png in Resources */,
-				91200F0D1F2BD567006AD068 /* Images.xcassets in Resources */,
-				91200F1A1F2BD567006AD068 /* MainSwift.storyboard in Resources */,
-				91200ECB1F2BD566006AD068 /* .travis.yml in Resources */,
 				91C2587F1F1225830089F340 /* Main.storyboard in Resources */,
-				91200F541F2BD567006AD068 /* IQKeyboardManagerSwift.podspec.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1426,166 +415,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91200EED1F2BD567006AD068 /* TextFieldViewController.m in Sources */,
 				91C2587C1F1225830089F340 /* ViewController.swift in Sources */,
-				91200F571F2BD567006AD068 /* MANUAL MANAGEMENT.md in Sources */,
-				91200EEE1F2BD567006AD068 /* TextSelectionViewController.m in Sources */,
 				91200D871F1E80E4006AD068 /* SwitchCameraButton.swift in Sources */,
-				91200EEB1F2BD567006AD068 /* SpecialCaseViewController.m in Sources */,
 				91200DB41F2BA2FE006AD068 /* NotificationViewController.swift in Sources */,
-				91200ECE1F2BD566006AD068 /* ColorTableViewCell.m in Sources */,
-				91200F381F2BD567006AD068 /* IQUIWindow+Hierarchy.m in Sources */,
-				91200EE81F2BD567006AD068 /* SearchViewController.m in Sources */,
-				91200ED11F2BD566006AD068 /* OptionTableViewCell.m in Sources */,
-				91200F001F2BD567006AD068 /* YYTextKeyboardManager.m in Sources */,
-				91200ED31F2BD567006AD068 /* SwitchTableViewCell.m in Sources */,
-				91200EDE1F2BD567006AD068 /* BottomBlankSpaceViewController.m in Sources */,
-				91200F101F2BD567006AD068 /* AppDelegate.swift in Sources */,
 				91200D731F1E528C006AD068 /* ShowDetailQRViewController.swift in Sources */,
-				91200EF51F2BD567006AD068 /* NSParagraphStyle+YYText.m in Sources */,
-				91200F451F2BD567006AD068 /* IQUITextFieldView+Additions.swift in Sources */,
-				91200F3D1F2BD567006AD068 /* IQPreviousNextView.m in Sources */,
-				91200EF61F2BD567006AD068 /* UIPasteboard+YYText.m in Sources */,
-				91200F071F2BD567006AD068 /* YYTextSelectionView.m in Sources */,
-				91200F141F2BD567006AD068 /* NavigationTableViewCell.swift in Sources */,
-				91200F591F2BD567006AD068 /* README.md in Sources */,
 				91200D6D1F1E48F3006AD068 /* ScanViewController.swift in Sources */,
-				91200EE71F2BD567006AD068 /* ScrollViewController.m in Sources */,
-				91200F031F2BD567006AD068 /* YYTextMagnifier.m in Sources */,
-				91200F581F2BD567006AD068 /* PROPERTIES & FUNCTIONS.md in Sources */,
 				91200D831F1E5FDD006AD068 /* QRCodeReaderViewController.swift in Sources */,
-				91200F481F2BD567006AD068 /* IQUIWindow+Hierarchy.swift in Sources */,
-				91200F3B1F2BD567006AD068 /* IQTextView.m in Sources */,
-				91200F041F2BD567006AD068 /* YYTextParser.m in Sources */,
 				91200DA31F2ACFB3006AD068 /* HistoryViewController.swift in Sources */,
-				91200F3C1F2BD567006AD068 /* IQBarButtonItem.m in Sources */,
-				91200F331F2BD567006AD068 /* IQNSArray+Sort.m in Sources */,
-				91200F221F2BD567006AD068 /* NavigationBarViewController.swift in Sources */,
-				91200EF41F2BD567006AD068 /* NSAttributedString+YYText.m in Sources */,
-				91200EE31F2BD567006AD068 /* LayoutGuideViewController.m in Sources */,
-				91200F461F2BD567006AD068 /* IQUIView+Hierarchy.swift in Sources */,
-				91200F4D1F2BD567006AD068 /* IQTextView.swift in Sources */,
-				91200F311F2BD567006AD068 /* DemoObjCUITests.m in Sources */,
-				91200EF71F2BD567006AD068 /* UIView+YYText.m in Sources */,
-				91200EEC1F2BD567006AD068 /* TableViewInContainerViewController.m in Sources */,
 				91200DB01F2B92A0006AD068 /* ImageCollectionViewCell.swift in Sources */,
 				91200D791F1E59F1006AD068 /* QRCodeReaderResult.swift in Sources */,
-				91200EF01F2BD567006AD068 /* TextViewSpecialCaseViewController.m in Sources */,
-				91200F361F2BD567006AD068 /* IQUIView+Hierarchy.m in Sources */,
-				91200F491F2BD567006AD068 /* IQKeyboardManagerConstants.swift in Sources */,
-				91200ED91F2BD567006AD068 /* ColorPickerTextField.m in Sources */,
-				91200F4B1F2BD567006AD068 /* IQKeyboardManager.swift in Sources */,
-				91200F231F2BD567006AD068 /* OptionsViewController.swift in Sources */,
 				91200D7F1F1E5D9B006AD068 /* ReaderOverlayView.swift in Sources */,
-				91200EE91F2BD567006AD068 /* OptionsViewController.m in Sources */,
-				91200F401F2BD567006AD068 /* IQUIView+IQKeyboardToolbar.m in Sources */,
-				91200EE41F2BD567006AD068 /* ManualToolbarViewController.m in Sources */,
-				91200F4E1F2BD567006AD068 /* IQBarButtonItem.swift in Sources */,
 				91200D111F1A56B6006AD068 /* AddWarrantyViewController.swift in Sources */,
-				91200F271F2BD567006AD068 /* SettingsViewController.swift in Sources */,
-				91200F2D1F2BD567006AD068 /* TextViewSpecialCaseViewController.swift in Sources */,
-				91200EF81F2BD567006AD068 /* YYLabel.m in Sources */,
-				91200ECC1F2BD566006AD068 /* AppDelegate.m in Sources */,
 				91200D9D1F23A8F1006AD068 /* MapViewController.swift in Sources */,
 				91200D9F1F23C57D006AD068 /* FixViewTableCell.swift in Sources */,
-				91200F391F2BD567006AD068 /* IQKeyboardManager.m in Sources */,
-				91200F4F1F2BD567006AD068 /* IQPreviousNextView.swift in Sources */,
-				91200F261F2BD567006AD068 /* SearchViewController.swift in Sources */,
-				91200EF91F2BD567006AD068 /* YYTextArchiver.m in Sources */,
-				91200F081F2BD567006AD068 /* YYTextTransaction.m in Sources */,
-				91200F431F2BD567006AD068 /* IQNSArray+Sort.swift in Sources */,
 				91C258B11F17B3F90089F340 /* RegisterUser.swift in Sources */,
-				91200F1D1F2BD567006AD068 /* CollectionViewDemoController.swift in Sources */,
-				91200F251F2BD567006AD068 /* ScrollViewController.swift in Sources */,
 				91200D931F234A46006AD068 /* ContactViewController.swift in Sources */,
 				91C2587A1F1225830089F340 /* AppDelegate.swift in Sources */,
-				91200EEA1F2BD567006AD068 /* SettingsViewController.m in Sources */,
-				91200F2A1F2BD567006AD068 /* TextFieldViewController.swift in Sources */,
-				91200EE51F2BD567006AD068 /* NavigationBarViewController.m in Sources */,
-				91200F521F2BD567006AD068 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
-				91200ED01F2BD566006AD068 /* NavigationTableViewCell.m in Sources */,
-				91200F4C1F2BD567006AD068 /* IQKeyboardReturnKeyHandler.swift in Sources */,
-				91200F2E1F2BD567006AD068 /* ViewController.swift in Sources */,
-				91200ED21F2BD566006AD068 /* StepperTableViewCell.m in Sources */,
-				91200F1F1F2BD567006AD068 /* ExampleTableViewController.swift in Sources */,
-				91200F061F2BD567006AD068 /* YYTextRunDelegate.m in Sources */,
-				91200EDA1F2BD567006AD068 /* HFColorButton.m in Sources */,
-				91200F201F2BD567006AD068 /* LayoutGuideViewController.swift in Sources */,
-				91200F241F2BD567006AD068 /* RefreshLayoutViewController.swift in Sources */,
-				91200F3E1F2BD567006AD068 /* IQTitleBarButtonItem.m in Sources */,
-				91200F371F2BD567006AD068 /* IQUIViewController+Additions.m in Sources */,
-				91200F181F2BD567006AD068 /* TextFieldTableViewCell.swift in Sources */,
-				91200EFC1F2BD567006AD068 /* YYTextContainerView.m in Sources */,
-				91200F441F2BD567006AD068 /* IQUIScrollView+Additions.swift in Sources */,
-				91200EFB1F2BD567006AD068 /* YYTextAttribute.m in Sources */,
-				91200F1B1F2BD567006AD068 /* BottomBlankSpaceViewController.swift in Sources */,
 				91200D851F1E6175006AD068 /* ToggleTorchButton.swift in Sources */,
-				91200F121F2BD567006AD068 /* ColorTableViewCell.swift in Sources */,
-				91200F0B1F2BD567006AD068 /* YYTextWeakProxy.m in Sources */,
 				91200D811F1E5E0B006AD068 /* QRCodeReaderView.swift in Sources */,
 				91200DAC1F2B4158006AD068 /* ConfirmQRViewController.swift in Sources */,
-				91200ECF1F2BD566006AD068 /* ImageSwitchTableViewCell.m in Sources */,
-				91200EFD1F2BD567006AD068 /* YYTextDebugOption.m in Sources */,
 				91200D8E1F210396006AD068 /* MainNavigationViewController.swift in Sources */,
-				91200F131F2BD567006AD068 /* ImageSwitchTableViewCell.swift in Sources */,
-				91200ED41F2BD567006AD068 /* TextFieldTableViewCell.m in Sources */,
-				91200F501F2BD567006AD068 /* IQTitleBarButtonItem.swift in Sources */,
-				91200EFF1F2BD567006AD068 /* YYTextInput.m in Sources */,
-				91200F1E1F2BD567006AD068 /* CustomViewController.swift in Sources */,
-				91200EE01F2BD567006AD068 /* CollectionViewDemoController.m in Sources */,
-				91200F111F2BD567006AD068 /* ChatTableViewCell.swift in Sources */,
 				91200D771F1E59C3006AD068 /* QRCodeReader.swift in Sources */,
-				91200EDB1F2BD567006AD068 /* HFColorPickerView.m in Sources */,
+				910E63741F2CAD22004AD583 /* PromoDetailViewController.swift in Sources */,
 				91200D751F1E58B1006AD068 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
 				91200D151F1A77BB006AD068 /* DetailWarrantyViewController.swift in Sources */,
 				91200D0F1F1A289A006AD068 /* TableViewController.swift in Sources */,
-				91200F561F2BD567006AD068 /* LICENSE.md in Sources */,
-				91200EFA1F2BD567006AD068 /* YYTextAsyncLayer.m in Sources */,
-				91200F471F2BD567006AD068 /* IQUIViewController+Additions.swift in Sources */,
-				91200F1C1F2BD567006AD068 /* ChatViewController.swift in Sources */,
-				91200EE11F2BD567006AD068 /* CustomViewController.m in Sources */,
-				91200F2B1F2BD567006AD068 /* TextSelectionViewController.swift in Sources */,
-				91200F281F2BD567006AD068 /* SpecialCaseViewController.swift in Sources */,
-				91200ECD1F2BD566006AD068 /* ChatTableViewCell.m in Sources */,
-				91200F351F2BD567006AD068 /* IQUITextFieldView+Additions.m in Sources */,
 				91200DAA1F2B371A006AD068 /* classForTableView.swift in Sources */,
 				91C258AD1F167CC80089F340 /* constant.swift in Sources */,
-				91200F4A1F2BD567006AD068 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 				91200D0A1F197FC1006AD068 /* confirmRegister.swift in Sources */,
-				91200EE21F2BD567006AD068 /* ExampleTableViewController.m in Sources */,
-				91200EDF1F2BD567006AD068 /* ChatViewController.m in Sources */,
-				91200F2C1F2BD567006AD068 /* TextViewController.swift in Sources */,
-				91200F341F2BD567006AD068 /* IQUIScrollView+Additions.m in Sources */,
-				91200EEF1F2BD567006AD068 /* TextViewController.m in Sources */,
-				91200F211F2BD567006AD068 /* ManualToolbarViewController.swift in Sources */,
-				91200F511F2BD567006AD068 /* IQToolbar.swift in Sources */,
 				91200D7B1F1E5B33006AD068 /* QRCodeReaderContainer.swift in Sources */,
-				91200F021F2BD567006AD068 /* YYTextLine.m in Sources */,
 				91200D7D1F1E5D78006AD068 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
-				91200F291F2BD567006AD068 /* TableViewInContainerViewController.swift in Sources */,
-				91200F0A1F2BD567006AD068 /* YYTextView.m in Sources */,
-				91200F3A1F2BD567006AD068 /* IQKeyboardReturnKeyHandler.m in Sources */,
-				91200F551F2BD567006AD068 /* KNOWN ISSUES.md in Sources */,
-				91200EF21F2BD567006AD068 /* WebViewController.m in Sources */,
+				910E63781F2DBC69004AD583 /* SettingTableViewController.swift in Sources */,
 				91200DB21F2B9A54006AD068 /* WebViewController.swift in Sources */,
-				91200F151F2BD567006AD068 /* OptionTableViewCell.swift in Sources */,
-				91200F161F2BD567006AD068 /* StepperTableViewCell.swift in Sources */,
-				91200EF11F2BD567006AD068 /* ViewController.m in Sources */,
 				91200DA71F2B367A006AD068 /* PromotionViewController.swift in Sources */,
-				91200F171F2BD567006AD068 /* SwitchTableViewCell.swift in Sources */,
-				91200EF31F2BD567006AD068 /* YYTextViewController.m in Sources */,
-				91200ED71F2BD567006AD068 /* main.m in Sources */,
-				91200F011F2BD567006AD068 /* YYTextLayout.m in Sources */,
-				91200EFE1F2BD567006AD068 /* YYTextEffectWindow.m in Sources */,
-				91200F051F2BD567006AD068 /* YYTextRubyAnnotation.m in Sources */,
-				91200EE61F2BD567006AD068 /* RefreshLayoutViewController.m in Sources */,
-				91200F2F1F2BD567006AD068 /* WebViewController.swift in Sources */,
 				91200D131F1A692C006AD068 /* ScanQR.swift in Sources */,
-				91200EDC1F2BD567006AD068 /* UIColor+HexColors.m in Sources */,
-				91200EDD1F2BD567006AD068 /* IQDropDownTextField.m in Sources */,
-				91200F091F2BD567006AD068 /* YYTextUtilities.m in Sources */,
-				91200F301F2BD567006AD068 /* YYTextViewController.swift in Sources */,
-				91200F3F1F2BD567006AD068 /* IQToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1621,15 +484,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91200DD21F2BD566006AD068 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91200DD31F2BD566006AD068 /* en */,
-				91200DD41F2BD566006AD068 /* es */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		91C2587D1F1225830089F340 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
