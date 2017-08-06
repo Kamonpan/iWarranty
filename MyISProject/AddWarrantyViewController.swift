@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import AVFoundation
+import QRCodeReader
+
 var Products = ["ทีวี","ตู้เย็น","ไมโครเวฟ","มือถือ"]
 var Price = [12000,8500,2500,25000]
 var ProductIndex = 0
 var price = [12000,8500,2500,25000]
 
-class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
-
+class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    lazy var readerVC: QRCodeReaderViewController = {
+        let builder = QRCodeReaderViewControllerBuilder {
+            $0.reader = QRCodeReader(metadataObjectTypes: [AVMetadataObjectTypeQRCode], captureDevicePosition: .back)
+        }
+        
+        return QRCodeReaderViewController(builder: builder)
+    }()
 
     @IBOutlet weak var ProductTableView: UITableView!
     //ปุ่ม edit
@@ -64,16 +74,41 @@ class AddWarrantyViewController: UIViewController,UITableViewDelegate,UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //let image = UIImage(named: "navigator.png")
-        //navigationItem.titleView = UIImageView(image: image)
-       // let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
-     //   imageView.contentMode = .scaleAspectFit
+    }
+
+    @IBAction func tapAddWarrantyButton(_ sender: Any) {
+        readerVC.delegate = self
+        readerVC.completionBlock = { (result: QRCodeReaderResult?) in
+            print(result)
+        }
+        readerVC.modalPresentationStyle = .formSheet
+        present(readerVC, animated: true, completion: nil)
+    }
     
+    @IBAction func tapProfileButton(_ sender: Any) {
+        let profileViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SettingTableViewController")
+        let navigationController = UINavigationController()
+        navigationController.pushViewController(profileViewController, animated: true)
+        self.present(navigationController, animated: true, completion: nil)
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension AddWarrantyViewController: QRCodeReaderViewControllerDelegate {
+    func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
+        reader.stopScanning()
+        
+        dismiss(animated: true, completion: nil)
     }
-
+    
+    func reader(_ reader: QRCodeReaderViewController, didSwitchCamera newCaptureDevice: AVCaptureDeviceInput) {
+        if let cameraName = newCaptureDevice.device.localizedName {
+            print("Switching capturing to: \(cameraName)")
+        }
+    }
+    
+    func readerDidCancel(_ reader: QRCodeReaderViewController) {
+        reader.stopScanning()
+        
+        dismiss(animated: true, completion: nil)
+    }
 }

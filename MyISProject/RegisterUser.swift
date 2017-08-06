@@ -29,7 +29,7 @@ class RegisterUser: UIViewController,UITextFieldDelegate {
             if (EmailTxt.text!.characters.count<6) {
                 
                 EmailTxt.backgroundColor = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
-                constant().showAlert(title: "Error", message: "Email ต้องมากกว่า 6 ตัวอักษร", ViewController: self)
+                AlertHelper.showAlert(title: "Error", message: "Email ต้องมากกว่า 6 ตัวอักษร", viewController: self)
                 return
             }
             else{
@@ -38,7 +38,7 @@ class RegisterUser: UIViewController,UITextFieldDelegate {
             
             if (PasswordTxt.text!.characters.count<6) {
                 PasswordTxt.backgroundColor = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
-                constant().showAlert(title: "Error", message: "Password ต้องมากกว่า 6 ตัวอักษร", ViewController: self)
+                AlertHelper.showAlert(title: "Error", message: "Password ต้องมากกว่า 6 ตัวอักษร", viewController: self)
                 return
             }
             else{
@@ -46,7 +46,7 @@ class RegisterUser: UIViewController,UITextFieldDelegate {
             }
             if (RePassTxt.text != PasswordTxt.text) {
                 RePassTxt.backgroundColor = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
-                constant().showAlert(title: "Error", message: "กรุณาตรวจสอบ Password อีกครั้ง", ViewController: self)
+                AlertHelper.showAlert(title: "Error", message: "กรุณาตรวจสอบ Password อีกครั้ง", viewController: self)
                 return
             }
             else{
